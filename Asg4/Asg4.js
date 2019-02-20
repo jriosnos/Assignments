@@ -1,4 +1,4 @@
-// Assignment 5
+// Excercise 0
 
 colors = [ 'blue', 'pink', 'red', 'purple', 'black']
 family = [ 22, 39]
@@ -29,17 +29,24 @@ var people = {
     Tomek: 39
 }
 
+//Excercise 1
+
+family.push(0)
+
+//Excercuse 2
 function lastElement (x){
     return x[x.length - 1]
 }
 
 cities.vancouver = 200000
 
-var reversed = coins.reverse()
-
-family.push(0)
+//var reversed = coins.reverse()
 
 
-artists.forEach (function(person){
-    console.log (`I think ${person} is an amazing performing artist`)
-})
+//artists.forEach (function(person){
+   // console.log (`I think ${person} is an amazing performing artist`)
+//})
+
+//Excercise 3
+
+console.log(coins.slice(0,2))
