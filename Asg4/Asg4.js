@@ -51,9 +51,20 @@ cities.vancouver = 200000
 
 //console.log(coins.slice(0,2))
 
+
 //Object.keys(movies).forEach(function(vls){
     //console.log( vls + " came out in " + movies[vls] )
 //})
 
-var sortReverse = family.sort(function (a, b){return a - b}).reverse()
-console.log(sortReverse)
+
+//var sortReverse = family.sort(function (a, b){return a - b}).reverse()
+//console.log(sortReverse)
+
+
+//movies.BeautyandTheBeast = "1991 and 2017"
+//console.log(movies)
+
+//Excercise 4 
+
+var familyfilter = family.filter(value => value>30) 
+console.log(familyfilter)
