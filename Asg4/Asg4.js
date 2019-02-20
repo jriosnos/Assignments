@@ -49,4 +49,8 @@ cities.vancouver = 200000
 
 //Excercise 3
 
-console.log(coins.slice(0,2))
+//console.log(coins.slice(0,2))
+
+Object.keys(movies).forEach(function(vls){
+    console.log( vls + " came out in " + movies[vls] )
+})
