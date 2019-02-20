@@ -1,7 +1,7 @@
 // Excercise 0
 
 colors = [ 'blue', 'pink', 'red', 'purple', 'black']
-family = [ 22, 39]
+family = [ 22, 39, 60, 63]
 coins = ['heads', 'tails', 'heads', 'heads', 'tails']
 artists = ['florence', 'gwen', 'emma'] 
 
@@ -31,7 +31,7 @@ var people = {
 
 //Excercise 1
 
-family.push(0)
+//family.push(0)
 
 //Excercuse 2
 function lastElement (x){
@@ -51,6 +51,9 @@ cities.vancouver = 200000
 
 //console.log(coins.slice(0,2))
 
-Object.keys(movies).forEach(function(vls){
-    console.log( vls + " came out in " + movies[vls] )
-})
+//Object.keys(movies).forEach(function(vls){
+    //console.log( vls + " came out in " + movies[vls] )
+//})
+
+var sortReverse = family.sort(function (a, b){return a - b}).reverse()
+console.log(sortReverse)
