@@ -67,9 +67,6 @@ cities.vancouver = 200000
 //Excercise 4 
 
 //var familyfilter = family.filter(value => value>30) 
-<<<<<<< HEAD
-//console.log(familyfilter)
-=======
 //console.log(familyfilter)
 
 //console.log(Math.max.apply(null, family))
@@ -79,7 +76,25 @@ cities.vancouver = 200000
 //coins.forEach(function(x){counts[x] = (counts[x] || 0) +1})
 //console.log(counts)
 
+//var removal = artists.splice(1,2)
+//console.log(artists)
 
-var removal = artists.splice(1,2)
-console.log(artists)
->>>>>>> 5ae7fee21fc448725bbdcc2a9c7f5cf3b4ed43be
+//cities.Montreal = 400000
+//console.log(cities.Montreal)
+
+//Excercise 5
+
+//function getSum(a, b){
+    //return a + b
+//}
+//var sum = Object.values(cities).reduce(getSum)
+//console.log(sum)
+
+console.log(Object.keys(people).forEach(function(name){
+        if (people[name]<30){
+            return name +" is young"
+        }
+        else{ 
+            return name+" is old"
+        })
+)
