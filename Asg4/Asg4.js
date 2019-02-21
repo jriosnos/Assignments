@@ -66,5 +66,5 @@ cities.vancouver = 200000
 
 //Excercise 4 
 
-var familyfilter = family.filter(value => value>30) 
-console.log(familyfilter)
+//var familyfilter = family.filter(value => value>30) 
+//console.log(familyfilter)
