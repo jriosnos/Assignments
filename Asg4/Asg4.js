@@ -90,10 +90,17 @@ cities.vancouver = 200000
 //var sum = Object.values(cities).reduce(getSum)
 //console.log(sum)
 
-Object.keys(people).forEach(function(name){
-        if (people[name]<30){
-            console.log( name +" is young")
-        }
-        else{ 
-            console.log(name +" is old")
-        }})
+//Object.keys(people).forEach(name => {
+        //if (people[name]<30){
+            //console.log( ` ${name} is young`)
+        //}
+        //else{ 
+            //console.log(` ${name} is old`)
+        //}})
+        
+//console.log(colors.slice(colors.length -3, colors.length))
+
+//let increment = family.map(incr =>{ 
+      //return incr+1;
+//});
+//console.log(increment)
