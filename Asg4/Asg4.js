@@ -67,4 +67,19 @@ cities.vancouver = 200000
 //Excercise 4 
 
 //var familyfilter = family.filter(value => value>30) 
+<<<<<<< HEAD
 //console.log(familyfilter)
+=======
+//console.log(familyfilter)
+
+//console.log(Math.max.apply(null, family))
+
+//Ask Karen if she knows functions operatons for counts
+//var counts = {}
+//coins.forEach(function(x){counts[x] = (counts[x] || 0) +1})
+//console.log(counts)
+
+
+var removal = artists.splice(1,2)
+console.log(artists)
+>>>>>>> 5ae7fee21fc448725bbdcc2a9c7f5cf3b4ed43be
