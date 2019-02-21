@@ -90,11 +90,10 @@ cities.vancouver = 200000
 //var sum = Object.values(cities).reduce(getSum)
 //console.log(sum)
 
-console.log(Object.keys(people).forEach(function(name){
+Object.keys(people).forEach(function(name){
         if (people[name]<30){
-            return name +" is young"
+            console.log( name +" is young")
         }
         else{ 
-            return name+" is old"
-        })
-)
+            console.log(name +" is old")
+        }})
