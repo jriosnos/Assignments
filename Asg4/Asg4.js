@@ -135,6 +135,19 @@ JPN = {
     Island: 'Yes',
 }]
 
-for(i = 0; i<20; i++){
-    console.log("I wil not skateboard in the halls")
+//for(i = 0; i<20; i++){
+    //console.log("I wil not skateboard in the halls")
+//}
+
+//var newArray = []
+//for(i = 0; i<20; i++){
+    //var writing = "I will not skateboard in the halls"
+    //newArray.push(writing)
+//}
+//console.log(newArray)
+
+var numberedArray = []
+for (i=1; i<=50; i++){
+    numberedArray.push(i)
 }
+console.log(numberedArray)
