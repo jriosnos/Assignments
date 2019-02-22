@@ -146,8 +146,8 @@ JPN = {
 //}
 //console.log(newArray)
 
-var numberedArray = []
-for (i=1; i<=50; i++){
-    numberedArray.push(i)
-}
-console.log(numberedArray)
+//var numberedArray = []
+//for (i=1; i<=50; i++){
+    //numberedArray.push(i)
+//}
+//console.log(numberedArray)
