@@ -107,3 +107,32 @@ cities.vancouver = 200000
       //return incr+1;
 //});
 //console.log(increment)
+
+var moviesYear = {
+    1999: ["The Matrix", "Star Wars: Episode 1", "The Mummy"],
+    2009: ["Avatar", "Star Trek", "District 9"],
+    2019: ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"],
+}
+
+topLine = [1,2,3]
+middleLine = [4,5,6]
+bottomLine = [7,8,9]
+lastLine = ["*", 0, "#"]
+
+countries = [Latin = {
+    country: 'Colombia',
+    continent: 'South America',
+    Island: 'No',
+},
+white = {
+    country: 'Poland',
+    continent: 'Europe',
+    Island: 'No'
+},
+JPN = {
+    country: 'Japan',
+    continent:'Asia',
+    Island: 'Yes',
+}]
+
+console.log(countries)
