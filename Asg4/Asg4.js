@@ -77,5 +77,5 @@ cities.vancouver = 200000
 //console.log(counts)
 
 
-var removal = artists.splice(1,2)
-console.log(artists)
+//var removal = artists.splice(1,2)
+//console.log(artists)
