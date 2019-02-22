@@ -146,8 +146,25 @@ JPN = {
 //}
 //console.log(newArray)
 
-//var numberedArray = []
-//for (i=1; i<=50; i++){
-    //numberedArray.push(i)
+//AsK Karen for how to loop using forEach to sum array
+var numberedArray = []
+for (i=1; i<=50; i++){
+    numberedArray.push(i)
+}
+//console.log (numberedArray.reduce((a,b) => {return a+b}))
+//this.numberedArray.forEach(value => {
+    //this.sum += value;
+//}, this))
+
+//var multipleNArray = []
+//for (i = 1; i<=50; i++){
+    //multipleNArray.push(i);
+   //multipleNArray.push(i);
+    //multipleNArray.push(i);
 //}
-//console.log(numberedArray)
+//console.log(multipleNArray)
+
+let watered = countries.Object.values(countries).map(water =>{
+    if(water == 'Yes'){return countries}
+})
+console.log(watered)
