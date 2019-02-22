@@ -71,10 +71,10 @@ cities.vancouver = 200000
 
 //console.log(Math.max.apply(null, family))
 
-//Ask Karen if she knows functions operatons for counts
-//var counts = {}
-//coins.forEach(function(x){counts[x] = (counts[x] || 0) +1})
-//console.log(counts)
+"Ask Karen if she knows functions operatons for counts"
+// var counts = {}
+// coins.forEach(function(x){x => counts[x] += 1})
+// console.log(counts)
 
 //var removal = artists.splice(1,2)
 //console.log(artists)
@@ -147,10 +147,19 @@ JPN = {
 //console.log(newArray)
 
 //AsK Karen for how to loop using forEach to sum array
-var numberedArray = []
-for (i=1; i<=50; i++){
-    numberedArray.push(i)
-}
+// var numberedArray = []
+// for (i=1; i<=50; i++){
+//     numberedArray.push(i);
+    
+// }
+
+// var sumOfNumbers = 0
+
+// numberedArray.forEach( (a) => {
+//     sumOfNumbers+= a
+// })
+// console.log(sumOfNumbers)
+
 //console.log (numberedArray.reduce((a,b) => {return a+b}))
 //this.numberedArray.forEach(value => {
     //this.sum += value;
@@ -164,7 +173,37 @@ for (i=1; i<=50; i++){
 //}
 //console.log(multipleNArray)
 
-let watered = countries.Object.values(countries).map(water =>{
-    if(water == 'Yes'){return countries}
-})
-console.log(watered)
+// var islands = []
+// countries.forEach(country => {
+//     if ( country.Island == 'Yes'){
+//         islands.push(country)
+//     }
+// })
+// console.log(islands)
+
+// var expenseTotal = 0
+// expenses = [250, 7.95, 30.95, 16.50]
+// expenses.forEach(x => {expenseTotal+= x})
+// console.log(expenseTotal)
+
+var students = {
+    class1: 34.00,
+    class2: 42.00,
+    class3: 22.00
+  }
+
+// Object.keys(students).forEach(person => {
+//     console.log(`${person}: ${students[person]}`)
+// })
+  
+// students.class4 = 43
+// // console.log(students.class4)
+
+// Object.keys(students).forEach(x => {
+//   students[x]*= 1.05
+// })
+// console.log(students)
+
+delete students['class2']
+console.log(students)
+
