@@ -80,33 +80,3 @@ cities.vancouver = 200000
 
 //var removal = artists.splice(1,2)
 //console.log(artists)
-=======
-//var removal = artists.splice(1,2)
-//console.log(artists)
-
-//cities.Montreal = 400000
-//console.log(cities.Montreal)
-
-//Excercise 5
-
-//function getSum(a, b){
-    //return a + b
-//}
-//var sum = Object.values(cities).reduce(getSum)
-//console.log(sum)
-
-//Object.keys(people).forEach(name => {
-        //if (people[name]<30){
-            //console.log( ` ${name} is young`)
-        //}
-        //else{ 
-            //console.log(` ${name} is old`)
-        //}})
-        
-//console.log(colors.slice(colors.length -3, colors.length))
-
-//let increment = family.map(incr =>{ 
-      //return incr+1;
-//});
-//console.log(increment)
->>>>>>> f8388628965629bf4254ebf7cd1d3121a5aa77de
