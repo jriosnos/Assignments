@@ -135,4 +135,6 @@ JPN = {
     Island: 'Yes',
 }]
 
-console.log(countries)
+for(i = 0; i<20; i++){
+    console.log("I wil not skateboard in the halls")
+}
