@@ -204,6 +204,11 @@ var students = {
 // })
 // console.log(students)
 
-delete students['class2']
-console.log(students)
+// delete students['class2']
+// console.log(students)
 
+var studentSum = 0
+Object.keys(students).forEach(x => {
+    studentSum+= students[x]
+})
+console.log(studentSum)
