@@ -164,7 +164,3 @@ for (i=1; i<=50; i++){
 //}
 //console.log(multipleNArray)
 
-let watered = countries.Object.values(countries).map(water =>{
-    if(water == 'Yes'){return countries}
-})
-console.log(watered)
