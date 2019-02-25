@@ -45,4 +45,23 @@ var lastArray = x => {
 // console.log(cities)
 // coins.reverse()
 // console.log(coins)
-console.log(cities.Toronto)
+// console.log(cities.Toronto)
+// artists.forEach(x => {
+//     console.log(`I think ${x} is a great artist`)
+// })
+
+// Excercise 3
+//console.log(artists.slice(0, 2))
+// Object.keys(movies).forEach( x => {
+//     console.log(`${x} came out in ${movies[x]}`)
+// })
+//console.log(familyAge.sort().reverse())
+// movies.Beauty = [1991, 2017]
+// console.log(movies)
+
+// Excercise 4
+Object.keys(familyAges).forEach( x=> {
+    if(familyAges[x]< 30){
+        console.log(`${x} is young`)
+    } else {console.log(`${x} is old`)}
+})
