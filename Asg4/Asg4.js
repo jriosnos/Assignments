@@ -173,8 +173,6 @@ JPN = {
 //}
 //console.log(multipleNArray)
 
-<<<<<<< HEAD
-=======
 // var islands = []
 // countries.forEach(country => {
 //     if ( country.Island == 'Yes'){
@@ -209,9 +207,9 @@ var students = {
 // delete students['class2']
 // console.log(students)
 
-var studentSum = 0
-Object.keys(students).forEach(x => {
-    studentSum+= students[x]
-})
-console.log(studentSum)
->>>>>>> 30325f70217b53b80d1b11563c96305727eec33a
+// var studentSum = 0
+// Object.keys(students).forEach(x => {
+//     studentSum+= students[x]
+// })
+// console.log(studentSum)
+
