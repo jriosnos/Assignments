@@ -212,3 +212,10 @@ Object.keys(students).forEach(x => {
     studentSum+= students[x]
 })
 console.log(studentSum)
+// var studentSum = 0
+// Object.keys(students).forEach(x => {
+//     studentSum+= students[x]
+// })
+// console.log(studentSum)
+
+

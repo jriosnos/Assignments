@@ -65,3 +65,80 @@ var lastArray = x => {
 //         console.log(`${x} is young`)
 //     } else {console.log(`${x} is old`)}
 // })
+// console.log(Math.max.apply(null, familyAge))
+// var numHeads = 0
+// var numTails = 0
+// coins.forEach( x => {
+//     if(x == 'heads'){
+//         numHeads+= 1
+//     } else{
+//         numTails+=1
+//     }
+// })
+// console.log(numHeads)
+// console.log(numTails)
+// artists.splice(1, 1)
+// console.log(artists)
+// cities.Montreal = 7600500
+// console.log(cities)
+
+// Excercise 5
+// var citiesSum = 0
+// Object.keys(cities).forEach((a) => {citiesSum+=cities[a]})
+// console.log(citiesSum)
+// console.log(Object.values(cities).reduce((a, b) => a+b))
+// var newAge= familyAge.map(a => {return a+=1})
+// console.log(newAge)
+
+// Excercise 6
+
+var moviesYear = {
+    1999: ["The Matrix", "Star Wars: Episode 1", "The Mummy"],
+    2009: ["Avatar", "Star Trek", "District 9"],
+    2019: ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"],
+}
+
+topLine = [1,2,3]
+middleLine = [4,5,6]
+bottomLine = [7,8,9]
+lastLine = ["*", 0, "#"]
+
+countries = [Latin = {
+    country: 'Colombia',
+    continent: 'South America',
+    Island: 'No',
+},
+white = {
+    country: 'Poland',
+    continent: 'Europe',
+    Island: 'No'
+},
+JPN = {
+    country: 'Japan',
+    continent:'Asia',
+    Island: 'Yes',
+}]
+
+// Excercise 7
+// var board = []
+// for (i=0; i<=20; i++){ 
+//     board.push(`I will not skateboard in the halls`)
+// }
+// console.log(board)
+// upToFifty = []
+// for(i=0; i<=50; i++){
+//     upToFifty.push(i);
+// }
+// // console.log(upToFifty)
+// sumOfNumbers= 0
+// upToFifty.forEach(a => {
+//     sumOfNumbers+=a
+// })
+// console.log(sumOfNumbers)
+var upToFifty3 = []
+for(i=0; i<=50; i++){
+    upToFifty3.push(i);
+    upToFifty3.push(i);
+    upToFifty3.push(i);
+}
+console.log(upToFifty3)
