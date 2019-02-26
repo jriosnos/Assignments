@@ -60,8 +60,8 @@ var lastArray = x => {
 // console.log(movies)
 
 // Excercise 4
-Object.keys(familyAges).forEach( x=> {
-    if(familyAges[x]< 30){
-        console.log(`${x} is young`)
-    } else {console.log(`${x} is old`)}
-})
+// Object.keys(familyAges).forEach( x=> {
+//     if(familyAges[x]< 30){
+//         console.log(`${x} is young`)
+//     } else {console.log(`${x} is old`)}
+// })
