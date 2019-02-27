@@ -135,10 +135,20 @@ JPN = {
 //     sumOfNumbers+=a
 // })
 // console.log(sumOfNumbers)
-var upToFifty3 = []
-for(i=0; i<=50; i++){
-    upToFifty3.push(i);
-    upToFifty3.push(i);
-    upToFifty3.push(i);
-}
-console.log(upToFifty3)
+// var upToFifty3 = []
+// for(i=0; i<=50; i++){
+//     upToFifty3.push(i);
+//     upToFifty3.push(i);
+//     upToFifty3.push(i);
+// }
+// console.log(upToFifty3)
+
+//Excercise 12
+ 
+var digits = ['1','2','3','4','5','6','7','8','9']
+var en = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+var fr = ['un','deux','trois','quatre','cinq','six','sept','huit','neuf']
+
+transform = {}
+Object.assign(transform, en, fr)
+console.log(transform)
