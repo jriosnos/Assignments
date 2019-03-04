@@ -150,5 +150,11 @@ var en = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'
 var fr = ['un','deux','trois','quatre','cinq','six','sept','huit','neuf']
 
 transform = {}
-Object.assign(transform, en, fr)
+digits.forEach( (index, element) => {
+    transform[index] = element
+})
+function Input (a, x){
+    this.French = a;
+    this.English = x;
+}
 console.log(transform)
