@@ -154,3 +154,5 @@ for (i = 0; i < digits.length; i++){
    transform[digits[i]] = {french: fr[i], english: en[i]}
 }
 console.log(transform)
+
+x
