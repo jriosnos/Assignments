@@ -150,11 +150,7 @@ var en = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'
 var fr = ['un','deux','trois','quatre','cinq','six','sept','huit','neuf']
 
 transform = {}
-digits.forEach( (index, element) => {
-    transform[index] = element
-})
-function Input (a, x){
-    this.French = a;
-    this.English = x;
+for (i = 0; i < digits.length; i++){
+   transform[digits[i]] = {french: fr[i], english: en[i]}
 }
 console.log(transform)
