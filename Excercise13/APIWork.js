@@ -1,4 +1,4 @@
-{ response: {
+var file = { response: {
     status: "ok",
     userTier: "developer",
     total: 9772,
@@ -101,4 +101,26 @@
     }
     ]}
     }
+  
+
+    for (i=0; i<10; i++){
+        file.response.results[i].views = 0
+    }
+
+    function readArticle(){
+        i = Math.floor(Math.random() * 10)
+        file.response.results[i].views+= 1
+    }
+for(x=0; x<20; x++){
+    readArticle()
+}
+
+function displayViews() {
+    for (n=0; n<10; n++){
+        console.log(file.response.results[n].webTitle)
+        console.log(file.response.results[n].views)
+    }
+}
+displayViews()
     
+
