@@ -1,8 +1,8 @@
 class Player{
     constructor(){
-        this.goldCoins = 9
-        this.healthPoints = 10
-        this.lives = 5
+        this.goldCoins = 9;
+        this.healthPoints = 10;
+        this.lives = 5;
     }
     levelUp(){
         this.lives+= 1
@@ -10,7 +10,7 @@ class Player{
     collectTreasure(){
         this.goldCoins+= 1
         if (this.goldCoins%10 == 0){
-        Player.name.levelUp()
+        levelUp()
         }
     doBattle(){
         this.healthPoints-= 1
