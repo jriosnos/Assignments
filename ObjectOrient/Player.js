@@ -10,8 +10,20 @@ class Player{
     collectTreasure(){
         this.goldCoins+= 1
         if (this.goldCoins%10 == 0){
-        levelUp()
+        Player.name.levelUp()
         }
+    doBattle(){
+        this.healthPoints-= 1
+        if (this.healthPoints<1){
+            this.lives-= 1
+            if (this.lives == 0)
+            reset(){
+                this.goldCoins = 0
+                this.lives = 5
+                this.healthPoints = 10
+            }
+        }
+    }
     }
 }
 var me = new Player()
