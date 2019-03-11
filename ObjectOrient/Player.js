@@ -4,28 +4,35 @@ class Player{
         this.healthPoints = 10;
         this.lives = 5;
     }
+
     levelUp(){
         this.lives+= 1
     }
+
     collectTreasure(){
         this.goldCoins+= 1
         if (this.goldCoins%10 == 0){
         levelUp()
         }
+    }
+    
+    reset(){
+    this.goldCoins = 0
+    this.lives = 5
+    this.healthPoints = 10
+    }
+    
     doBattle(){
         this.healthPoints-= 1
         if (this.healthPoints<1){
             this.lives-= 1
             if (this.lives == 0)
-            reset(){
-                this.goldCoins = 0
-                this.lives = 5
-                this.healthPoints = 10
-            }
+            reset()
         }
     }
+    
     }
-}
-var me = new Player()
-me.collectTreasure()
-console.log(me.lives)
+
+var playerUno = new Player()
+playerUno.collectTreasure()
+console.log(playerUno.lives)
