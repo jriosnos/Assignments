@@ -1,6 +1,6 @@
 class Player{
     constructor(){
-        this.goldCoins = 9;
+        this.goldCoins = 0;
         this.healthPoints = 10;
         this.lives = 5;
     }
