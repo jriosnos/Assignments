@@ -12,13 +12,12 @@ class Player{
     collectTreasure(){
         this.goldCoins+= 1
        
-        if (this.goldCoins >= 10){
-        this.goldCoins-= 10
+        if (this.goldCoins%10 == 0){
         this.levelUp()
         }
     }
     
-    reset(){
+    restart(){
     this.goldCoins = 0
     this.lives = 5
     this.healthPoints = 10
@@ -30,7 +29,7 @@ class Player{
         if (this.healthPoints<1){
             this.lives-= 1
             if (this.lives == 0)
-            this.reset()
+            this.restart()
         }
     }
     
