@@ -5,7 +5,7 @@ class Player{
         this.lives = 5;
     }
 
-    levelUp(){
+    get levelUp(){
         this.lives+= 1
     }
 
@@ -13,7 +13,7 @@ class Player{
         this.goldCoins+= 1
        
         if (this.goldCoins%10 == 0){
-        this.levelUp()
+        this.levelUp
         }
     }
     
