@@ -7,4 +7,5 @@ class Star extends Bodies{
     }
 }
 
+
 module.exports = Star

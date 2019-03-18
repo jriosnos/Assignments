@@ -8,4 +8,5 @@ class Planet extends Bodies{
     }
 }
 
+
 module.exports = Planet

@@ -2,10 +2,12 @@ System = require(`./System`)
 
 class Bodies extends System{
     constructor(name, mass){
+        super()
         this.name = name
         this.mass = mass
     }
-    get name() {
+    
+    name() {
         return (`This is the ${this.name}`)
     }
 }
