@@ -11,14 +11,22 @@ document.addEventListener("DOMContentLoaded", function(){
         const ul = document.createElement('ul')
         const input = document.querySelector('#input')
         
-        ul.innerHTML = responseData
+        ul.innerHTML = JSON.stringify(responseData[40])
         input.append(ul)
-
-
     }).fail(()=> {
         console.log('Unfortuneately your request has failed to send')
+    }).always(()=>{
+        console.log('The request has been successfully completed')
     })
     })
-    
-    
+    var nextButton = document.getElementById('ping')
+    nextButton.addEventListener('click',()=>{
+        $.ajax({
+            url:'http://first-ajax-api.herokuapp.com/ping',
+            method: 'GET',
+            dataType: 'json'
+        }).done((responsedata)=>{
+            console.log(responsedata)
+        })
+    })
     })
