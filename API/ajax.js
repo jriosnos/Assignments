@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function(){
     }).done((responseData) => {
         console.log('Request successfully sent')
         console.log(responseData)
+    }).fail(()=> {
+        console.log('Unfortuneately your request has failed to send')
     })
     })
     
