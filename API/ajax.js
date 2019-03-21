@@ -7,7 +7,14 @@ document.addEventListener("DOMContentLoaded", function(){
         dataType: 'json'
     }).done((responseData) => {
         console.log('Request successfully sent')
-        console.log(responseData)
+        
+        const ul = document.createElement('ul')
+        const input = document.querySelector('#input')
+        
+        ul.innerHTML = responseData
+        input.append(ul)
+
+
     }).fail(()=> {
         console.log('Unfortuneately your request has failed to send')
     })
