@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function(){
         console.log('The request has been successfully completed')
     })
     })
+    
     var nextButton = document.getElementById('ping')
     nextButton.addEventListener('click',()=>{
         $.ajax({
@@ -27,6 +28,14 @@ document.addEventListener("DOMContentLoaded", function(){
             dataType: 'json'
         }).done((responsedata)=>{
             console.log(responsedata)
+            console.log('Youre click was successfully sent')
+            
+            const sectionize = document.createElement('section')
+            sectionize.innerHTML = responseData
+            input.append(sectionize)
+
+        }).always(() => {
+            console.log('Data has been sent')
         })
     })
     })
