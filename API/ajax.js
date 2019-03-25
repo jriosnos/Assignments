@@ -23,19 +23,26 @@ document.addEventListener("DOMContentLoaded", function(){
     var nextButton = document.getElementById('ping')
     nextButton.addEventListener('click',()=>{
         $.ajax({
-            url:'http://first-ajax-api.herokuapp.com/ping',
+            url:'http://first-ajax-api.herokuapp.com/a_car',
             method: 'GET',
-            dataType: 'json'
-        }).done((responsedata)=>{
-            console.log(responsedata)
+            dataType: 'html'
+        }).done((response)=>{
+            console.log(response)
             console.log('Youre click was successfully sent')
             
             const sectionize = document.createElement('section')
-            sectionize.innerHTML = responseData
+            sectionize.innerHTML = response
             input.append(sectionize)
 
         }).always(() => {
             console.log('Data has been sent')
+        }).fail(()=>{
+            console.log('Data request unsuccessfully sent')
+            
+            const inputs = document.querySelector('#input')
+            const sections = document.createElement('section')
+            sections.innerHTML = "The Ajax request had an incorrect URL, try harder"
+            inputs.append(sections)
         })
     })
     })
