@@ -108,4 +108,25 @@ var moviesYear = {
 //     else{console.log(`${x} is old`)}
 // })
 // console.log(ages)
-console.log(faveColors.slice(2))
+// console.log(faveColors.slice(2))
+
+// Object.keys(familyAges).forEach(x=>{
+//     familyAges[x]+=1
+// })
+// console.log(familyAges)
+
+// function writeHalls() {
+//     var skate = []
+//     for(var i=0; i<=20; i++){
+//         skate[i] = "I will not skateboard in the halls"
+//     }
+//     console.log(skate)
+// }
+
+// console.log(writeHalls())
+
+var numbers=[]
+for(i=0;i<=50; i++){
+    numbers[i] = i
+}
+console.log(numbers)
